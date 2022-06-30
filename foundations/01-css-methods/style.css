@@ -6,14 +6,3 @@ div {
    text-align: center;
    font-weight: bold;
 }
-
-p {
-    background: green;
-    color: white;
-    font-size: 18px;
-}
-
-button {
-    background: orange;
-    font-size: 18px;
-}
