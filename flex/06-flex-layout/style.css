@@ -25,3 +25,51 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+/*remove bullet lits*/
+.left-links, 
+.right-links {
+  list-style-type: none;
+}
+/* Remove the Underline from links*/
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer, 
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  flex-direction: column;
+}
+  
+
+.buttons {
+  padding: 8px 16px
+}
+
+.footer {
+  background: #eee;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px
+}
